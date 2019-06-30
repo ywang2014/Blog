@@ -21,7 +21,7 @@
             }
        }
     }
-    
+
 &emsp;&emsp;HTTP GET方法调用，到底支不支持带有body呢？HTTP协议是支持的，没有禁止，但是呢，不建议这么做，不是一个良好的习惯，因为有些浏览器啥的可能不支持，这个时候，你写的方法就尴尬了。
 
 Stackoverflow解释大神回复如下：
@@ -29,11 +29,11 @@ Stackoverflow解释大神回复如下：
 &emsp;&emsp;In other words, any HTTP request message is allowed to contain a message body, and thus must parse messages with that in mind. Server semantics for GET, however, are restricted such that a body, if any, has no semantic meaning to the request. The requirements on parsing are separate from the requirements on method semantics.
 So, yes, you can send a body with GET, and no, it is never useful to do so.
 
-This is part of the layered design of HTTP/1.1 that will become clear again once the spec is partitioned (work in progress).
+&emsp;&emsp;This is part of the layered design of HTTP/1.1 that will become clear again once the spec is partitioned (work in progress).
 
 ## 解决方法
 #### 方案一 --- 修改Feign调用http的方式
-网上可以很容易搜索到这个解决方法，相关博客非常多，直接copy的情况，太严重了。但是实际验证，没有生效，具体原因待排查。
+&emsp;网上可以很容易搜索到这个解决方法，相关博客非常多，直接copy的情况，太严重了。但是实际验证，没有生效，具体原因待排查。
 
 1.具体方法
 
@@ -73,11 +73,11 @@ This is part of the layered design of HTTP/1.1 that will become clear again once
         3.ApacheHttpClient完美支持。
 
 #### 方案二 --- 使用AsyncHttpClient
-因为AsyncHttpClient支持GET方法带有Body的调用。
+&emsp;&emsp;因为AsyncHttpClient支持GET方法带有Body的调用。
 
-网上也可以很容易搜索到这个解决方法，感觉都是复制粘贴的，没有经过验证和实证，内容完全一样，都缺少最关键的信息，没有给出需要引用的jar包，而实际上，需要引用的jar包还不好找到，实在是大坑。
+&emsp;&emsp;网上也可以很容易搜索到这个解决方法，感觉都是复制粘贴的，没有经过验证和实证，内容完全一样，都缺少最关键的信息，没有给出需要引用的jar包，而实际上，需要引用的jar包还不好找到，实在是大坑。
 
-完整解决方法如下：
+**完整解决方法如下：**
 
     1.引入maven依赖
         <dependency>
@@ -118,7 +118,7 @@ This is part of the layered design of HTTP/1.1 that will become clear again once
     2.没有header的get方法调用，去掉headers.forEach(requestBuilder::addHeader);即可。
 
 ## 总结
-网上资源很多、很丰富，各种问题解决方案很多，但是也存在很多缺陷，不去验证、实践，根本不知道里面有问题，因此不要随便copy别人的博客，往往copy的博客本身就存在潜在的问题，copy之前，请试验一下，证明方法是正确的，减少给需要同学的误导。
+&emsp;&emsp;网上资源很多、很丰富，各种问题解决方案很多，但是也存在很多缺陷，不去验证、实践，根本不知道里面有问题，因此不要随便copy别人的博客，往往copy的博客本身就存在潜在的问题，copy之前，请试验一下，证明方法是正确的，减少给需要同学的误导。
 
 #### 参考资料
     
@@ -126,4 +126,6 @@ This is part of the layered design of HTTP/1.1 that will become clear again once
     2.https://blog.csdn.net/f641385712/article/details/82431502
     3.https://segmentfault.com/q/1010000011958034
     4.https://stackoverflow.com/questions/978061/http-get-with-request-body
+
+**2019-06-30**
 
