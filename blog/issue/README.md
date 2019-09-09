@@ -6,3 +6,12 @@
 ## 问题总结
 #### HTTP问题
 [1.解决HTTP GET方法调用带有body问题](https://www.jianshu.com/p/220d2267cdc9)
+
+#### kafka问题
+[1.kafka遇到的问题]()
+
+#### Redis问题
+[1.redis集群配置，key序列化问题]()
+
+#### SprintBoot问题
+[1.Contorller方法private修饰问题]()
