@@ -10,4 +10,6 @@
 #### 编程设计技巧
 [1.提高服务稳定性，如何实现兜底策略]()
 
-[2.架构经验总结]()
+[2.开发经验总结](https://github.com/ywang2014/Blog/blob/master/blog/summary/developSummary.md)
+
+[3.架构经验总结](https://github.com/ywang2014/Blog/blob/master/blog/summary/designSummary.md)

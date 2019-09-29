@@ -6,7 +6,16 @@
 ## 博客
 #### 问题总结
 [1.解决HTTP GET方法调用带有body问题](https://www.jianshu.com/p/220d2267cdc9)
+
+[2.kafka遇到的问题](https://github.com/ywang2014/Blog/blob/master/blog/issue/Kafka.problem.md)
+
+[3.redis集群配置，key序列化问题](https://github.com/ywang2014/Blog/blob/master/blog/issue/Redis.problem.md)
+
+[4.Contorller方法private修饰问题](https://github.com/ywang2014/Blog/blob/master/blog/issue/controller_private.problem.md)
 #### 技术总结
+[1.开发经验总结](https://github.com/ywang2014/Blog/blob/master/blog/summary/developSummary.md)
+
+[2.架构经验总结](https://github.com/ywang2014/Blog/blob/master/blog/summary/designSummary.md)
 ###### 数据库技巧
 [1.数据库及联类型字段设计]()
 ###### 编程设计技巧
@@ -33,10 +42,11 @@
 ###### thrift
 跨语言RPC 框架，通过IDL（接口描述语言） 来定义RPC 数据类型和接口
 #### 设计模式
-[1.理解工厂设计模式]()
+[1.理解设计模式](https://github.com/ywang2014/Blog/tree/master/tech/designPattern)
 #### 框架学习
-###### SpringBoot
-###### SpringCloud
+[SpringBoot](https://github.com/ywang2014/Blog/tree/master/tech/framework/springboot)
+[SpringCloud](https://github.com/ywang2014/Blog/tree/master/tech/framework/springcloud)
+[ServiceMesh](https://github.com/ywang2014/Blog/tree/master/tech/framework/servicemesh)
 #### 源码学习
 #### 算法学习
 

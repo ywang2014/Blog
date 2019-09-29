@@ -8,10 +8,10 @@
 [1.解决HTTP GET方法调用带有body问题](https://www.jianshu.com/p/220d2267cdc9)
 
 #### kafka问题
-[1.kafka遇到的问题]()
+[1.kafka遇到的问题](https://github.com/ywang2014/Blog/blob/master/blog/issue/Kafka.problem.md)
 
 #### Redis问题
-[1.redis集群配置，key序列化问题]()
+[1.redis集群配置，key序列化问题](https://github.com/ywang2014/Blog/blob/master/blog/issue/Redis.problem.md)
 
 #### SprintBoot问题
-[1.Contorller方法private修饰问题]()
+[1.Contorller方法private修饰问题](https://github.com/ywang2014/Blog/blob/master/blog/issue/controller_private.problem.md)
