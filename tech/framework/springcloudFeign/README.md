@@ -5,7 +5,9 @@
 
 ## Spring Cloud Feign 声明式服务调用
 
-1.启动服务注册中心 eureka-server 及服务提供方
+1.服务注册和服务发现 eureka
 
 2.Feign 的继承特性
+
+3.Hystrix服务降级
 
