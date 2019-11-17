@@ -12,6 +12,8 @@
 [3.redis集群配置，key序列化问题](https://github.com/ywang2014/Blog/blob/master/blog/issue/Redis.problem.md)
 
 [4.Contorller方法private修饰问题](https://github.com/ywang2014/Blog/blob/master/blog/issue/controller_private.problem.md)
+
+[5.PageHelper ThreadLocal污染问题](https://github.com/ywang2014/Blog/blob/master/blog/issue/PageHelper.problem.md)
 #### 技术总结
 [1.开发经验总结](https://github.com/ywang2014/Blog/blob/master/blog/summary/developSummary.md)
 

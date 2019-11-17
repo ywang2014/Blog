@@ -15,3 +15,6 @@
 
 #### SprintBoot问题
 [1.Contorller方法private修饰问题](https://github.com/ywang2014/Blog/blob/master/blog/issue/controller_private.problem.md)
+
+#### Mybatis问题
+[1.PageHelper ThreadLocal污染问题](https://github.com/ywang2014/Blog/blob/master/blog/issue/PageHelper.problem.md)
