@@ -18,3 +18,6 @@
 
 #### Mybatis问题
 [1.PageHelper ThreadLocal污染问题](https://github.com/ywang2014/Blog/blob/master/blog/issue/PageHelper.problem.md)
+
+#### ES问题
+[1.ES查询分页问题分析和总结](https://github.com/ywang2014/Blog/blob/master/blog/issue/ES.query.problem.md)

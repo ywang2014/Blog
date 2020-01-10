@@ -14,6 +14,9 @@
 [4.Contorller方法private修饰问题](https://github.com/ywang2014/Blog/blob/master/blog/issue/controller_private.problem.md)
 
 [5.PageHelper ThreadLocal污染问题](https://github.com/ywang2014/Blog/blob/master/blog/issue/PageHelper.problem.md)
+
+[6.ES查询分页问题分析和总结--scroll查询实现](https://github.com/ywang2014/Blog/blob/master/blog/issue/ES.query.problem.md)
+
 #### 技术总结
 [1.开发经验总结](https://github.com/ywang2014/Blog/blob/master/blog/summary/developSummary.md)
 

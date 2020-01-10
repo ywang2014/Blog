@@ -5,6 +5,9 @@
 
 #### 问题总结
 [1.解决HTTP GET方法调用带有body问题](https://www.jianshu.com/p/220d2267cdc9)
+
+[2.ES查询分页问题分析和总结](https://github.com/ywang2014/Blog/blob/master/blog/issue/ES.query.problem.md)
+
 #### 技术总结
 ###### 数据库技巧
 [1.数据库及联类型字段设计]()
