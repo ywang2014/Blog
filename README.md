@@ -25,6 +25,11 @@
 [1.数据库及联类型字段设计]()
 ###### 编程设计技巧
 [1.提高服务稳定性，如何实现兜底策略]()
+
+#### [系统设计](https://github.com/ywang2014/Blog/tree/master/blog/design)
+[1.权限系统设计](https://github.com/ywang2014/Blog/tree/master/blog/design/authSystem.md)
+
+[2.工单系统设计]
 #### [大牛博客](https://github.com/ywang2014/Blog/tree/master/blog/expert)
 ## 技术学习
 #### 中间件学习
